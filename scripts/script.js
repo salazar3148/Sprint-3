@@ -125,7 +125,7 @@ const generarEventos = () => {
 
             if(event.target.id == "editar") {
                 sessionStorage.setItem("idEditar", event.target.parentNode.id)
-                location.href = "../pages/formInmueble.html";
+                location.href = "pages/formInmueble.html";
             }
 
             if(event.target.id == "favorito"){
