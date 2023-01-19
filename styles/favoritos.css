@@ -76,7 +76,7 @@ body {
 
 .img__article {
     width: 100%;
-    height: 80%;
+    height: 50%;
 }
 
 .title__article, .p__article{
@@ -89,7 +89,7 @@ body {
     border-radius: 15px;
     padding: 10px;
     position: relative;
-    bottom: 295px;
+    bottom: 420px;
     left: 10px;
     background-color: #ff5e14;
 }
