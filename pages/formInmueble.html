@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../styles/formInmueble.css">
+    <meta> 
+</head>
+<body>
+    <header class="header__container">
+        <h1 class="header__title">Agregar Inmueble!</h1>
+    </header>
+    <main class="main__container">
+        <form class="main__form">
+            <label class="main__form__label" for="imgs">Imagenes De La Propiedad</label>
+            <input class="main__form__input" id="imgs" placeholder="Urls (Separados por coma)" type="text" >
+
+            <label class="main__form__label" for="city">Ciudad</label>
+            <input class="main__form__input" id="city" placeholder="Digite la ciudad" type="text" >
+            
+            <label class="main__form__label" for="adress">Direccion</label>
+            <input class="main__form__input" id="adress" placeholder="(Zip Code, Departamento, Ciudad)" type="text" >
+           
+            <label class="main__form__label" for="owner">Dueño</label>
+            <input class="main__form__input" id="owner" placeholder="Nombre Del Dueño" type="text" > 
+            
+            <label class="main__form__label" for="type">Tipo</label>
+            <select class="main__form__input"id="type">
+                <option value="">Type</option>
+                <option value="HOUSE">House</option>
+                <option value="Apartment">Apartment</option>
+                <option value="FARM">Farm</option>
+                <option value="BUSINESS">Business</option>
+            </select>
+            
+            <label class="main__form__label" for="status">Status</label>
+            <select class="main__form__input" id="status">
+                <option value="">Status</option>
+                <option value="FOR SALE">For Sale</option>
+                <option value="FOR RENT">For Rent</option>
+            </select>
+
+            <label class="main__form__label" for="price">Precio</label>
+            <input class="main__form__input" id="price" placeholder="Digite La Cantidad En Dolares" type="number" > 
+
+            <label class="main__form__label" for="area">Area</label>
+            <input class="main__form__input" id="area" placeholder="¿Cuántos metros?" type="number" > 
+
+            <label class="main__form__label" for="garages">Garajes</label>
+            <input class="main__form__input" id="garages" placeholder="¿Cuántos garajes posee?" type="number" > 
+
+            <label class="main__form__label" for="bathrooms">Baños</label>
+            <input class="main__form__input" id="bathrooms" placeholder="¿Cuántos baños posee?" type="number" > 
+
+            <label class="main__form__label" for="bedrooms">Habitaciones</label>
+            <input class="main__form__input" id="bedrooms" placeholder="¿Cuántas habitaciones posee?" type="number" > 
+    
+            <button class="main__form__button" type="submit">Agregar</button>
+        </form> 
+    </main>
+    <footer class="footer__container">
+        <button class="footer__button" onclick="location.href='../index.html'">Volver a la pagina principal</button>
+    </footer>
+    <script src="../scripts/formInmueble.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

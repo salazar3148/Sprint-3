@@ -1,0 +1,204 @@
+{
+  "inmuebles": [
+    {
+      "imgs": [
+        "https://images.adsttc.com/media/images/5f90/e509/63c0/1779/0100/010e/slideshow/3.jpg?1603331288",
+        "https://images.adsttc.com/media/images/5f90/e3b6/63c0/1756/a700/0137/slideshow/1.jpg?1603330988",
+        " https://images.adsttc.com/media/images/5f90/e6ab/63c0/1756/a700/0146/slideshow/7.jpg?1603331738"
+      ],
+      "city": "Medellin, Antioquia",
+      "adress": "272 S Rexford Dr, Beverly Hills, CA90212, CA",
+      "owner": "Christian Salazar",
+      "type": "HOUSE",
+      "status": "FOR SALE",
+      "price": "2000000",
+      "area": "300",
+      "garages": "2",
+      "bathrooms": "7",
+      "bedrooms": "7",
+      "id": 1
+    },
+    {
+      "imgs": [
+        "https://images.adsttc.com/media/images/5008/eafa/28ba/0d27/a700/0c6e/slideshow/stringio.jpg?1414379893",
+        "https://images.adsttc.com/media/images/5008/eaff/28ba/0d27/a700/0c6f/slideshow/stringio.jpg?1414379896",
+        " https://images.adsttc.com/media/images/5008/eb09/28ba/0d27/a700/0c71/slideshow/stringio.jpg?1414379899"
+      ],
+      "city": "Bogota, Cundinamarca",
+      "adress": "Calle 34 Sur # 66 - 20",
+      "owner": "Jorge Ivan",
+      "type": "HOUSE",
+      "status": "FOR SALE",
+      "price": "1500000",
+      "area": "300",
+      "garages": "2",
+      "bathrooms": "8",
+      "bedrooms": "11",
+      "id": 2
+    },
+    {
+      "imgs": [
+        "https://www.shutterstock.com/image-photo/manizales-colombia-february-23-2105-260nw-325579409.jpg",
+        "https://st2.depositphotos.com/1017187/8618/i/600/depositphotos_86187932-stock-photo-venecia-coffee-farm-manizales-colombia.jpg",
+        " https://www.uniquecolombia.com/wp-content/uploads/2012/04/finca-hermosa-quindio.jpg"
+      ],
+      "city": "Funza, Cundinamarca",
+      "adress": "272 S Filo Dr, Cundinamarca, CA90212, Funza",
+      "owner": "Mauricio Correa - 301203645",
+      "type": "FARM",
+      "status": "FOR RENT",
+      "price": "500",
+      "area": "200",
+      "garages": "1",
+      "bathrooms": "4",
+      "bedrooms": "8",
+      "id": 3
+    },
+    {
+      "imgs": [
+        "https://i0.wp.com/www.revistaaxxis.com.co/wp-content/uploads/2021/07/imagen-21.png?resize=1024%2C574&ssl=1",
+        "https://i0.wp.com/www.revistaaxxis.com.co/wp-content/uploads/2021/07/imagen-22.png?resize=1024%2C681&ssl=1",
+        " https://i0.wp.com/www.revistaaxxis.com.co/wp-content/uploads/2021/07/imagen-23.png?resize=1024%2C575&ssl=1"
+      ],
+      "city": "Medellin",
+      "adress": "Paisaje Montañoso de las afueras de Medellín",
+      "owner": "Sebastián Arias Marín - 1001546987",
+      "type": "HOUSE",
+      "status": "FOR SALE",
+      "price": "3000000",
+      "area": "233",
+      "garages": "1",
+      "bathrooms": "4",
+      "bedrooms": "6",
+      "id": 4
+    },
+    {
+      "imgs": [
+        "https://img10.naventcdn.com/avisos/resize/9/00/61/69/70/26/1200x1200/340406625.jpg",
+        "https://img10.naventcdn.com/avisos/resize/9/00/61/69/70/26/1200x1200/340406624.jpg",
+        " https://img10.naventcdn.com/avisos/resize/9/00/61/69/70/26/1200x1200/340405688.jpg"
+      ],
+      "city": "Altos del Pacífico Club",
+      "adress": "Vía Circunvalación Tramo 2, Ruta del Spondylus, Centro de Manta, Manta, Manabí .",
+      "owner": "Emmanuel Monsalve",
+      "type": "HOUSE",
+      "status": "FOR SALE",
+      "price": "27512",
+      "area": "93",
+      "garages": "1",
+      "bathrooms": "2",
+      "bedrooms": "3",
+      "id": 5
+    },
+    {
+      "imgs": [
+        "https://images.adsttc.com/media/images/63bd/7f76/7af0/cb18/510c/6b21/slideshow/casamar-cuatro-cero-cuatro-arquitectura_11.jpg?1673363424",
+        "https://images.adsttc.com/media/images/63bd/8051/a9f4/9f1a/7c4e/5fd0/slideshow/casamar-cuatro-cero-cuatro-arquitectura_18.jpg?1673363638",
+        " https://images.adsttc.com/media/images/63bd/7f6f/7af0/cb01/70b5/bcb7/slideshow/casamar-cuatro-cero-cuatro-arquitectura_15.jpg?1673363414"
+      ],
+      "city": "ZORRITOS, PERÚ",
+      "adress": "VIVIENDA COLECTIVA - ZORRITOS, PERÚ",
+      "owner": "Renzo Rebagliati - 1154632022",
+      "type": "HOUSE",
+      "status": "FOR SALE",
+      "price": "600000",
+      "area": "322",
+      "garages": "2",
+      "bathrooms": "6",
+      "bedrooms": "8",
+      "id": 6
+    },
+    {
+      "imgs": [
+        "https://images.adsttc.com/media/images/634e/dd53/1a21/1701/6e04/33c5/slideshow/casa-de-poniente-rodriguez-losada-arquitectos_6.jpg?1666112908",
+        "https://images.adsttc.com/media/images/634e/dd50/1a21/1701/6e04/33c3/slideshow/casa-de-poniente-rodriguez-losada-arquitectos_3.jpg?1666112878",
+        " https://images.adsttc.com/media/images/634e/dd4f/1a21/1701/6e04/33c2/slideshow/casa-de-poniente-rodriguez-losada-arquitectos_5.jpg?1666112887"
+      ],
+      "city": "PIURA, PERÚ",
+      "adress": "CASAS - PIURA, PERÚ",
+      "owner": "Losada Rodríguez",
+      "type": "HOUSE",
+      "status": "FOR SALE",
+      "price": "2500000",
+      "area": "340",
+      "garages": "3",
+      "bathrooms": "7",
+      "bedrooms": "7",
+      "id": 7
+    },
+    {
+      "imgs": [
+        "https://images.adsttc.com/media/images/6340/182c/33b7/6e33/ca4f/1fad/slideshow/casa-tejona-martin-dulanto-arquitecto_8.jpg?1665144913",
+        "https://images.adsttc.com/media/images/6340/1832/7a53/273a/9231/9438/slideshow/casa-tejona-martin-dulanto-arquitecto_12.jpg?1665144912",
+        " https://images.adsttc.com/media/images/6340/183b/7a53/273a/9231/943f/slideshow/casa-tejona-martin-dulanto-arquitecto_27.jpg?16651449811"
+      ],
+      "city": "CIENEGUILLA, PERÚ",
+      "adress": "CASAS, DECORACIÓN Y ORNAMENTO - CIENEGUILLA, PERÚ",
+      "owner": "Martín Dulanto Arquitecto",
+      "type": "FARM",
+      "status": "FOR RENT",
+      "price": "10000",
+      "area": "903",
+      "garages": "3",
+      "bathrooms": "10",
+      "bedrooms": "12",
+      "id": 8
+    },
+    {
+      "imgs": [
+        "https://images.adsttc.com/media/images/6017/ff15/f91c/8191/2c00/0325/slideshow/ext03.jpg?1612185348",
+        "https://images.adsttc.com/media/images/6017/fca3/f91c/81d5/7500/0399/slideshow/int07.jpg?1612184676",
+        " https://images.adsttc.com/media/images/6017/fc99/f91c/8191/2c00/031a/slideshow/int08.jpg?1612184684"
+      ],
+      "city": "VIVIENDA SOCIAL, PERÚ",
+      "adress": "CASAS, VIVIENDA SOCIAL - PERÚ",
+      "owner": "María Montenegro",
+      "type": "HOUSE",
+      "status": "FOR RENT",
+      "price": "150",
+      "area": "90",
+      "garages": "1",
+      "bathrooms": "2",
+      "bedrooms": "4",
+      "id": 9
+    }
+  ],
+  "favoritos": [
+    {
+      "imgs": [
+        "https://www.shutterstock.com/image-photo/manizales-colombia-february-23-2105-260nw-325579409.jpg",
+        "https://st2.depositphotos.com/1017187/8618/i/600/depositphotos_86187932-stock-photo-venecia-coffee-farm-manizales-colombia.jpg",
+        " https://www.uniquecolombia.com/wp-content/uploads/2012/04/finca-hermosa-quindio.jpg"
+      ],
+      "city": "Funza, Cundinamarca",
+      "adress": "272 S Filo Dr, Cundinamarca, CA90212, Funza",
+      "owner": "Mauricio Correa - 301203645",
+      "type": "FARM",
+      "status": "FOR RENT",
+      "price": "500",
+      "area": "200",
+      "garages": "1",
+      "bathrooms": "4",
+      "bedrooms": "8",
+      "id": 3
+    },
+    {
+      "imgs": [
+        "https://images.adsttc.com/media/images/5008/eafa/28ba/0d27/a700/0c6e/slideshow/stringio.jpg?1414379893",
+        "https://images.adsttc.com/media/images/5008/eaff/28ba/0d27/a700/0c6f/slideshow/stringio.jpg?1414379896",
+        " https://images.adsttc.com/media/images/5008/eb09/28ba/0d27/a700/0c71/slideshow/stringio.jpg?1414379899"
+      ],
+      "city": "Bogota, Cundinamarca",
+      "adress": "Calle 34 Sur # 66 - 20",
+      "owner": "Jorge Ivan",
+      "type": "HOUSE",
+      "status": "FOR SALE",
+      "price": "1500000",
+      "area": "300",
+      "garages": "2",
+      "bathrooms": "8",
+      "bedrooms": "11",
+      "id": 2
+    }
+  ]
+}

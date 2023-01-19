@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header__p:hover {
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+}
+
+.header__span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #FAFAFA;
+    background-color: #2A41E8;
+    padding: 20px;
+}
+
+.nav__bar{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.nav__span {
+    color: #4B4D4F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.submit__span {
+    font-size: 22px;
+    color: #FAFAFA;
+    background-color: #ff5e14;
+    padding: 35px;
+}
+
+.submit__span:hover {
+    cursor: pointer;
+    transform: scale(1.02, 1.02);
+}
+
+.main__image {
+    width: 100%;
+    height: 100%;
+}
+
+.main__figure {
+    font-size: 30px;
+    color: #FAFAFA;
+    position: relative;
+    bottom: 400px;
+    margin-left: 200px;
+}
+
+.main__nav {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    width: 75%;
+    bottom: 350px;
+    left: 200px;
+    background-color: #FAFAFA;
+}
+
+.main__select {
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    color: b;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #DBD2D0;
+}
+
+.main__input {
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: 	#DBD2D0;
+    border: 0;
+}
+
+.main__button {
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    color: #FAFAFA;
+    background-color: #2A41E8;
+}
+
+.main__button:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05)
+}
+
+.main__span {
+    font-size: 16px;
+    gap: 10px;
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.figure__card:hover {
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+}
+
+.img__article {
+    width: 100%;
+    height: 280px;
+}
+
+.title__article, .p__article{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+}
+
+.label__type, .label__status{
+    color: #FAFAFA;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    bottom: 300px;
+    left: 10px;
+    background-color: #ff5e14;
+}
+
+.delete__article, .editar__article, .fav__article {
+    position: relative;
+    bottom: 260px;
+    left: 300px
+}
+
+.fav__article {
+    left: 290px;
+}
+
+.editar__article {
+    left: 310px;
+}
+
+.delete__article:hover , .editar__article:hover, .fav__article:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.label__status {
+    background-color: #2A41E8;
+}
+
+.label__price {
+    font-size: 25px;
+    color: #2A41E8;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    position: relative;
+    left: 130px;
+    bottom: 90px;
+}
+
+.h3__adress{
+    font-size: 18px;
+}
+
+.p__owner {
+    color: #2A41E8;
+    font-size: 15px;
+}
+
+.section__specifications {
+    display: flex;
+    justify-content: space-around;
+}
+
+.figure__section {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.footer__container {
+    top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+.footer__button {
+    font-size: 20px;
+    padding: 15px;
+    width: 250px;
+}
+
+.footer__button:hover {
+    transition: 1s;
+    background-color: #2A41E8;
+    color: white;
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}

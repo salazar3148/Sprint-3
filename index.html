@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CasaRoyal</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta>
+</head>
+<body>
+    <header class="header__container">
+        <span class="header__span">
+            <p>1441 Market St. San Francisco</p>
+            <p>(123) 456-7890</p>
+            <p>Mon-Sun 8:00am - 6:00pm</p>
+            <p class="header__p">Login/Register</p>
+        </span>
+        <nav class="nav__bar">
+            <figure><img src="img/logo.png"></figure>
+            <span class="nav__span">
+                <p class="header__p">HOMEPAGE</p>
+                <p class="header__p">PROPERTIES</p>
+                <p class="header__p">AGENCIES</p>
+                <p class="header__p">PAGES</p>
+                <p class="header__p">ABOUT</p>
+                <p class="header__p">CONTACT</p>
+                <p class="header__p">COMPARE</p>
+                <span class="submit__span">
+                    <p>SUBMIT</p>
+                </span>
+            </span>
+        </nav>
+
+    </header>
+    
+    <main class="main__container">
+        <img class="main__image"src="img/hero-bg-image.png">
+        <figure class="main__figure">
+            <h2>Let Us Guide You Home</h2>
+            <br>
+            <h6>Find the house of your dreams</h4>
+        </figure>
+        <nav class="main__nav">
+            <select class="main__select"id="type">
+                <option value="">Type</option>
+                <option value="HOUSE">House</option>
+                <option value="APARTMENT">Apartment</option>
+                <option value="FARM">Farm</option>
+                <option value="BUSINESS">Business</option>
+            </select>
+            <select class="main__select"id="status">
+                <option value="">Status</option>
+                <option value="FOR SALE">For Sale</option>
+                <option value="FOR RENT">For Rent</option>
+            </select>
+            <input class="main__input" id="busqueda" placeholder="Search for properties">
+            <button class="main__button" id="buscar">Find Properties</button>
+        </nav>
+        <span class="main__span">
+            <p>CASAROYAL REAL ESTATE AGENCY</p>
+            <h1>Featured Properties</h2>
+        </span>
+
+        <figure class="cards__container">
+            
+        </figure>
+
+    </main>
+    <footer class="footer__container">
+        <button class="footer__button" onclick="location.href='pages/formInmueble.html'">Publicar un Inmueble!</button>
+        <button id="favoritos" class="footer__button" onclick="location.href='pages/favoritos.html'">Ir a Favoritos!</button>
+    </footer>
+    <script src="scripts/script.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
