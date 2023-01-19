@@ -6,7 +6,7 @@ const others__img = document.querySelector(".others__img");
 document.addEventListener("DOMContentLoaded", async () => {
     const idDetails = sessionStorage.getItem("idDetails");
     if(idDetails){
-        const url = `http://localhost:3000/inmuebles/${idDetails}`
+        const url = `https://mini-back-casaroyale-production.up.railway.app/inmuebles/${idDetails}`
         const inmueble = await getDataFetch(url)
         console.log(inmueble);
         let img = document.createElement("img");

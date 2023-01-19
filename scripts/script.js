@@ -4,7 +4,7 @@ import PostDataFetch from "../helpers/postData.js";
 
 let articles = []
 
-const urlCards = "http://localhost:3000/inmuebles"
+const urlCards = "https://mini-back-casaroyale-production.up.railway.app/inmuebles"
 let cards;
 
 const contenedor = document.querySelector(".cards__container")
@@ -131,7 +131,7 @@ const generarEventos = () => {
             if(event.target.id == "favorito"){
                 const id = event.target.parentNode.id;
                 const inmUrl = `${urlCards}/${id}`
-                const favUrl = "http://localhost:3000/favoritos"
+                const favUrl = "https://mini-back-casaroyale-production.up.railway.app/favoritos"
                 agregarAFav(inmUrl, favUrl);
             }
 

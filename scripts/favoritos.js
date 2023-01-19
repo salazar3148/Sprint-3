@@ -1,7 +1,7 @@
 import getDataFetch from "../helpers/getData.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
-    const urlCards = "http://localhost:3000/favoritos"
+    const urlCards = "https://mini-back-casaroyale-production.up.railway.app/favoritos"
     const cards = await getDataFetch(urlCards);
     const contenedor = document.querySelector(".cards__container")
     cards.forEach((card) => {

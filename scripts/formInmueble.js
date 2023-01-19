@@ -8,7 +8,7 @@ let idEdit;
 let inmueble = null;
 
 document.addEventListener("DOMContentLoaded", async () => {
-    url = "http://localhost:3000/inmuebles";
+    url = "https://mini-back-casaroyale-production.up.railway.app/inmuebles";
     idEdit = sessionStorage.getItem("idEditar");
     if(idEdit) {
         const title = document.querySelector(".header__title");
