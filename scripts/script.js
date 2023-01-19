@@ -115,6 +115,7 @@ const generarEventos = () => {
                         const url = `${urlCards}/${id}`;
                         try {
                             await deleteDataFetch(url);
+                            cards = await getDataFetch(urlCards);
                             imprimirCards(cards, contenedor);
                         } catch(err){
                             console.log("Error: " + err)
